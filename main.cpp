@@ -1,9 +1,20 @@
-#include "complex.h"
+
 #include <iostream>
+#include "Card.h"
+#include "Deck.h"
+#include <ctime>
+#include <vector>
+#include <cstdlib>
+#include <algorithm>
+#include "Player.h"
+#include "Poker.h"
+
 
 int main(){
 
-    complex result = complex(5,5);
-    result.printreal();
+    std::srand(time(NULL));
+    
+    Poker mygame;
 
+ 
 }
